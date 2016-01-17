@@ -7,6 +7,7 @@ import edu.upc.eetac.dsa.beeter.dao.UserDAOImpl;
 import edu.upc.eetac.dsa.beeter.entity.AuthToken;
 import edu.upc.eetac.dsa.beeter.entity.User;
 
+import javax.annotation.security.RolesAllowed;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
